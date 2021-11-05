@@ -1,0 +1,162 @@
+html, body {
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    margin: 0 0 100px 0;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+/*flex container*/
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: wrap;
+    height: 100%;
+}
+
+/*Nav section */
+#navbar { 
+    position: absolute;
+    right: 0;
+}
+
+#navbar > ul {
+    list-style-type: none;
+    margin:10px;
+    padding:0;
+}
+
+#navbar > ul > li {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+#navbar > ul > li > a {
+    display: block;
+    border-radius: 5px;
+    width: 60px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar > ul > li > a:hover {
+    background-color: green;
+}
+
+.active {
+    background-color: green;
+}
+
+/*header section */
+#header{
+    width:40%;
+    background-color: #5cdb95;display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px 60px 20px 60px;
+}
+
+
+.btn.contact {
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+    background-color: teal;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*content section */
+#content {
+    width: 60%;
+    padding: 20px 60px 20px 60px;
+    box-sizing: border-box;
+    align-self: center;
+    
+}
+
+#content-wrapper {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+section > h2 {
+    margin: 0;
+}
+
+.port-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 300px;
+    overflow: auto;
+    margin: 0 0 20px 0;
+}
+
+.port-item {
+    width:45%;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px 0 10px 0;
+    background-color: #5cdb95;
+}
+
+@media (max-width: 660px) {
+    .port-container {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .port-item {
+        width: 100%;
+    }
+}
+
+.port-item > h3 {
+    margin: 20px 0 10px 0;
+}
+
+.port-item > img {
+    display: block;
+    width: 100%;
+}
+
+.clear-float {
+    clear:left;
+}
+
+/*footer section */
+#push {
+    height: 100px;
+}
+
+#footer {
+    width: 100%; 
+    height: 100px; 
+    background-color:steelblue;
+    position:absolute;
+    bottom: 0;
+    margin-bottom: -100px;
+}
+
+@media (max-width: 1200px) {
+    #header, #content {
+      width: 100%;
+    }
+  }
