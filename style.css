@@ -36,7 +36,6 @@ body {
 }
 
 #navbar > ul > li {
-    border: 1px solid black;
     border-radius: 5px;
     margin-left: 5px;
     float: left;
@@ -50,14 +49,16 @@ body {
     text-decoration: none;
     padding: 10px;
     text-align: center;
+    font-weight: 600;
 }
 
 #navbar > ul > li > a:hover {
-    background-color: green;
+    background-color: #05386b;
 }
 
 .active {
-    background-color: green;
+    background-color: #05386b;
+    font-weight: 600;
 }
 
 /*header section */
@@ -75,8 +76,8 @@ body {
     border-radius: 5px;
     padding: 10px 20px 10px 20px;
     border-style: none;
-    background-color: teal;
-    color: white;
+    background-color: #fff;
+    color: #05386b;
     font-weight: 600;
     font-size: 16px;
 }
@@ -105,9 +106,31 @@ section > h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 300px;
+    height: 400px;
     overflow: auto;
     margin: 0 0 20px 0;
+    background-color: #edf5e1;
+    border-radius: 5px;
+}
+
+.port-container::-webkit-scrollbar {
+    width:10px;
+}
+
+.port-container::-webkit-scrollbar-track {
+    background: #edf5e1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.port-container::-webkit-scrollbar-thumb {
+    background: #5cdb95;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.port-container::-webkit-scrollbar-thumb:hover {
+    background: #379683;
 }
 
 .port-item {
@@ -149,7 +172,7 @@ section > h2 {
 #footer {
     width: 100%; 
     height: 100px; 
-    background-color:steelblue;
+    background-color:#05386b;
     position:absolute;
     bottom: 0;
     margin-bottom: -100px;
