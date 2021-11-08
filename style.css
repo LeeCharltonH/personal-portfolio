@@ -21,7 +21,6 @@ body {
 .flex-container {
     display: flex;
     flex-flow: wrap;
-    height: 100%;
 }
 
 /*Nav section */
@@ -66,7 +65,8 @@ body {
 #header{
     width:40%;
     min-height: 100vh;
-    background-color: #5cdb95;display: flex;
+    background-color: #5cdb95;
+    display: flex;
     flex-flow: wrap;
     align-items: center;
     box-sizing: border-box;
@@ -90,7 +90,6 @@ body {
     padding: 20px 60px 20px 60px;
     box-sizing: border-box;
     align-self: center;
-    
 }
 
 #content-wrapper {
@@ -143,19 +142,6 @@ section > h2 {
     background-color: #5cdb95;
 }
 
-@media (max-width: 660px) {
-    .port-container {
-      flex-direction: column;
-      justify-content: center;
-    }
-    .port-item {
-        width: 100%;
-    }
-    #header{
-        min-height:auto;
-    }
-}
-
 .port-item > h3 {
     margin: 20px 0 10px 0;
 }
@@ -172,11 +158,12 @@ section > h2 {
 /*Contact page section */
 
 #contact-wrapper {
+    width:60%;
+    min-height: 100vh;
     display: flex;
+    flex-flow: wrap;
     align-items: center;
-    width: 50%;
     margin: auto;
-    flex-direction: column;
 }
 
 #contact-wrapper > div{
@@ -184,8 +171,56 @@ section > h2 {
 }
 
 form {
-    border: 1px solid black;
+    border: 1px solid gray;
     padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+form div {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+form input {
+    width: 100%;
+    min-height: 30px;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+form input:focus {
+    background-color: grey;
+    border: 1px solid darkgray;
+}
+
+form label {
+    font-weight: 600;
+}
+
+.form-2col {
+    display: flex;
+    padding: 0;
+}
+
+form button {
+    background-color: #008CBA;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    min-width: 100px;
+    border-radius: 5px;
+    border: 0; 
+}
+
+form button:hover {
+    background-color: #006c91;
 }
 
 /*footer section */
@@ -243,4 +278,32 @@ footer div {
     #header{
         min-height:auto;
     }
+    #contact-wrapper {
+        width: 80%;
+    }
   }
+
+  @media (max-width: 660px) {
+    .port-container {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .port-item {
+        width: 100%;
+    }
+    #header{
+        min-height:auto;
+    }
+    #contact-wrapper {
+        width: 100%;
+    }
+    .form-2col {
+        flex-direction: column;
+    }
+    form div {
+        padding: 5px;
+    }
+    form {
+        padding: 10px;
+    }
+}

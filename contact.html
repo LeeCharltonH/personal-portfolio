@@ -10,52 +10,67 @@
     
  </head>
  <body>
-    <div id="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-    <div id="wrapper" class="flex-container">
-        <div id="contact-wrapper">
-            <div>
-                <h1>Get in touch</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div>
-                <form>
-                    <label id="fname">First name</label>
-                    <input type="text" id="fname">
-                    <label id="lname">Last name</label>
-                    <input type="text" id="lname">
-                    <label id="email">Email</label>
-                    <input type="text" id="email">
-                    <label id="comments">Comments</label>
-                    <input type="text" id="comments">
-                </form>
+    
+    <div id="wrapper" >
+        <div id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="flex-container" >
+            <div id="contact-wrapper">
+                <div>
+                    <h1>Get in touch</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <form>
+                        <div class="form-2col">
+                            <div>
+                                <label for="fname">First name</label>
+                                <input type="text" id="fname">
+                            </div>
+                            <div>
+                                <label for="lname">Last name</label>
+                                <input type="text" id="lname">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="text" id="email">
+                        </div>
+                        <div>
+                            <label for="comments">Comments</label>
+                            <input type="text" id="comments">
+                        </div>
+                        <div>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
+        <div id="footer">
+            <footer>
+                <div>
+                    <p>Links:</p>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Social:</p>
+                    <ul>
+                        <li><a href="#">Insta</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                        <li><a href="#">Github</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
     </div>
-    <div id="footer">
-        <footer>
-            <div>
-                <p>Links:</p>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div>
-                <p>Social:</p>
-                <ul>
-                    <li><a href="#">Insta</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Github</a></li>
-                </ul>
-            </div>
-        </footer>
-    </div>
+    
  </body>   
 </html>
