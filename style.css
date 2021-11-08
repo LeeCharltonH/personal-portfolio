@@ -191,10 +191,24 @@ section > h2 {
 }
 
 .flex-container ul > li {
-    border-radius: 5px;
     box-sizing: border-box;
-    padding: 3px;
     float: left;
+    margin: auto;
+}
+
+#about-content ul > li {
+    padding: 3px;
+}
+
+#about-header li {
+    background-color: grey;
+    border-radius: 5px;
+    padding: 10px 15px;
+    min-width: 50px;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
 }
 
 li img {
@@ -205,9 +219,10 @@ li img:hover {
     width: 38px;
 }
 
-h3 {
+#about-content p {
     margin: 5px 0 5px 0;
     font-size: 15px;
+    font-weight: 600;
 }
 
 /*Contact page section */
