@@ -72,8 +72,20 @@ body {
     align-items: center;
     box-sizing: border-box;
     padding: 20px 60px 20px 60px;
+    z-index: -2;
     /*transform: translate(-50%, 0%);
     transition: transform 2s;*/
+}
+
+#header .heading-line {
+    display: block;
+    height: 18px;
+    width: 220px;
+    background-color: white;
+    position: absolute;
+    margin-top: -20px;
+    z-index: -1;
+    opacity: 75%;
 }
 
 /*#header:hover {
@@ -104,6 +116,17 @@ body {
     flex-flow: wrap;
     align-items: center;
     justify-content: center;
+}
+
+#content .heading-line {
+    display: block;
+    height: 14px;
+    width: 100px;
+    background-color: #5cdb95;
+    position: absolute;
+    margin-top: -16px;
+    z-index: -1;
+    opacity: 75%;
 }
 
 section > h2 {
