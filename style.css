@@ -164,6 +164,25 @@ section > h2 {
     clear:left;
 }
 
+/*Contact page section */
+
+#contact-wrapper {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+}
+
+#contact-wrapper > div{
+    margin: 10px;
+}
+
+form {
+    border: 1px solid black;
+    padding: 20px;
+}
+
 /*footer section */
 #push {
     height: 100px;
