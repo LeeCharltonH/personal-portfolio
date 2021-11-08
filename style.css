@@ -155,6 +155,61 @@ section > h2 {
     clear:left;
 }
 
+/*About page*/
+
+#about-header{
+    width:60%;
+    min-height: 100vh;
+    background-color: #5cdb95;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px 60px 20px 60px;
+}
+
+#about-content {
+    width: 40%;
+    padding: 20px 60px 20px 60px;
+    box-sizing: border-box;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-content > div {
+    padding: 20px 0 0 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.flex-container ul {
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+}
+
+.flex-container ul > li {
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 3px;
+    float: left;
+}
+
+li img {
+    width: 40px;
+}
+
+li img:hover {
+    width: 38px;
+}
+
+h3 {
+    margin: 5px 0 5px 0;
+    font-size: 15px;
+}
+
 /*Contact page section */
 
 #contact-wrapper {
@@ -275,8 +330,19 @@ footer div {
     #header, #content {
       width: 100%;
     }
+    #about-header, #about-content {
+        width: 100%;
+      }
     #header{
         min-height:auto;
+    }
+    #about-header{
+        min-height:auto;
+        padding: 60px;
+    }
+    #about-content{
+        min-height:auto;
+        padding: 60px;
     }
     #contact-wrapper {
         width: 80%;
@@ -293,6 +359,16 @@ footer div {
     }
     #header{
         min-height:auto;
+    }
+    #about-header{
+        padding: 20px 30px 20px 30px;
+    }
+    #about-content{
+        padding: 30px;
+    }
+    #about-content > img{
+        width: 200px;
+        height: auto;
     }
     #contact-wrapper {
         width: 100%;
