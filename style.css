@@ -24,6 +24,7 @@ body {
 }
 
 /*Nav section */
+
 #navbar { 
     position: absolute;
     right: 0;
@@ -71,7 +72,13 @@ body {
     align-items: center;
     box-sizing: border-box;
     padding: 20px 60px 20px 60px;
+    /*transform: translate(-50%, 0%);
+    transition: transform 2s;*/
 }
+
+/*#header:hover {
+    transform: none;
+}*/
 
 
 .btn.contact {
@@ -114,6 +121,55 @@ section > h2 {
     border-radius: 5px;
 }
 
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    
+}
+
+.portfolio-item {
+    position: relative;
+}
+
+.portfolio-item img {
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+    opacity: 80%;
+    
+}
+
+.portfolio-item a {
+    color: black;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 1;
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.portfolio-item:hover img {
+    opacity: 0.3;
+}
+  
+.portfolio-item:hover .overlay {
+    opacity: 1;
+}
+
+.portfolio-item h3 {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
 .port-container::-webkit-scrollbar {
     width:10px;
 }
@@ -145,11 +201,11 @@ section > h2 {
 .port-item > h3 {
     margin: 20px 0 10px 0;
 }
-
+/*
 .port-item > img {
     display: block;
     width: 100%;
-}
+}*/
 
 .clear-float {
     clear:left;
@@ -362,6 +418,7 @@ footer div {
     #contact-wrapper {
         width: 80%;
     }
+    
   }
 
   @media (max-width: 660px) {
@@ -397,4 +454,5 @@ footer div {
     form {
         padding: 10px;
     }
+    
 }
