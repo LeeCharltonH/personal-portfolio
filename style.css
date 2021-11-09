@@ -15,7 +15,7 @@ body {
     width: 100%;
     position: relative;
     min-height: 100vh;
-    padding-bottom: 10rem;
+    padding-bottom: 20rem;
 }
 
 .flex-container {
@@ -100,14 +100,21 @@ a.active {
 }*/
 
 
-.btn.contact {
-    border-radius: 5px;
+header button {
+    border-radius: 25px;
     padding: 10px 20px 10px 20px;
-    border-style: none;
-    background-color: #fff;
-    color: #05386b;
+    border: 3px solid #5d5c61;
+    background-color: transparent;
+    color: #5d5c61;
     font-weight: 600;
     font-size: 16px;
+    z-index: 1000;
+}
+
+header button:hover {
+    cursor: pointer;
+    background-color: tomato;
+    z-index: 10000;
 }
 
 /*content section */
@@ -190,7 +197,7 @@ section > h2 {
     padding: 10px;
     border-radius: 15px;
     opacity: 80%;
-    background-color: slategray;
+    background-color: #314455;
     color: white;
 }
 
@@ -320,7 +327,7 @@ form div {
 }
 
 
-form input {
+form input, form textarea {
     width: 100%;
     min-height: 30px;
     box-sizing: border-box;
@@ -328,9 +335,10 @@ form input {
     border: 1px solid grey;
     border-radius: 5px;
     margin-top: 5px;
+    box-shadow: 1px 3px 10px -4px #48474b inset;
 }
 
-form input:focus {
+form input:focus, form textarea:focus {
     background-color: grey;
     border: 1px solid darkgray;
 }
@@ -353,10 +361,12 @@ form button {
     min-width: 100px;
     border-radius: 5px;
     border: 0; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; /*Box shadow styling source: https://getcssscan.com/css-box-shadow-examples*/
 }
 
 form button:hover {
     background-color: #006c91;
+    cursor: pointer;
 }
 
 /*footer section */
@@ -366,18 +376,70 @@ form button:hover {
 
 #footer {
     width: 100%; 
-    height: 10rem; 
-    background-color:black;
+    height: 20rem; 
+    background-color:#5d5c61;
     position: absolute;
     bottom: 0;
-    color: white;
-    padding: 40px 20px 20px 20px;
+    color: #b1a296;
+    padding: 0px 20px 20px 20px;
     box-sizing: border-box;
+    box-shadow: 0 5px 10px -2px #48474b inset;
+
 }
 
 footer {
     margin: auto;
-    width: 50%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer > div {
+    width: 300px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    
+}
+
+footer form {
+    border: none;
+    padding: 0;
+}
+
+footer form > div {
+    padding: 10px 0 0 0;
+    font-weight: 400;
+}
+
+#footer p {
+    display: block;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+footer form > div > label {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+footer input, footer textarea {
+    width: 100%;
+    min-height: 30px;
+    box-sizing: border-box;
+    background-color: grey;
+    border: 1px solid rgb(78, 78, 78);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+footer input:focus, footer textarea:focus {
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+
+footer button {
+    background-color: cadetblue;
 }
 
 footer p {
@@ -392,22 +454,26 @@ footer ul {
     display: block;
     list-style-type: none;
     float: left;
-    margin: 0;
-    width: 50%;
+    margin: 10px 0 10px 0;
+    width: 100%;
     padding:0;
+}
+
+footer ul > li {
+    display: block;
+    float: left;
+    padding-right: 10px;
 }
 
 footer a {
     text-decoration: none;
-    color: white;
-}
-
-footer div {
-    float: left;
-    width: 50%;
+    color: #b1a296;
 }
 
 @media (max-width: 1200px) {
+    #wrapper {
+        padding-bottom: 28rem;
+    }
     #header, #content {
       width: 100%;
     }
@@ -427,6 +493,9 @@ footer div {
     }
     #contact-wrapper {
         width: 80%;
+    }
+    #footer { 
+        height: 28rem; 
     }
   }
 
