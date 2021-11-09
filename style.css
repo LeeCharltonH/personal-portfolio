@@ -113,8 +113,6 @@ header button {
 
 header button:hover {
     cursor: pointer;
-    background-color: tomato;
-    z-index: 10000;
 }
 
 /*content section */
@@ -193,9 +191,8 @@ section > h2 {
 }
 
 .portfolio-item h3 {
-    
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 25px;
     opacity: 80%;
     background-color: #314455;
     color: white;
@@ -353,19 +350,19 @@ form label {
 }
 
 form button {
-    background-color: #008CBA;
-    color: white;
+    background-color: transparent;
+    color: #5d5c61;
     font-size: 15px;
     font-weight: 600;
     padding: 10px;
     min-width: 100px;
-    border-radius: 5px;
-    border: 0; 
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; /*Box shadow styling source: https://getcssscan.com/css-box-shadow-examples*/
+    border-radius: 25px;
+    border: 3px solid #5d5c61;
 }
 
 form button:hover {
-    background-color: #006c91;
+    background-color: #5d5c61;
+    color: white;
     cursor: pointer;
 }
 
@@ -439,7 +436,14 @@ footer input:focus, footer textarea:focus {
 }
 
 footer button {
-    background-color: cadetblue;
+    border: 3px solid #b1a296;
+    color: #b1a296;
+    background-color: transparent;
+}
+
+footer button:hover {
+    color: white;
+    background-color: #b1a296;
 }
 
 footer p {
