@@ -295,6 +295,10 @@ li img:hover {
     margin: auto;
 }
 
+#contact-wrapper h1 {
+    margin: 0;
+}
+
 #contact-wrapper .heading-line {
     display: block;
     height: 18px;
@@ -513,9 +517,13 @@ footer a {
     }
     #header{
         min-height:auto;
+        padding: 40px 10px 20px 10px;
+    }
+    #content {
+        padding: 20px 10px 20px 10px;
     }
     #about-header{
-        padding: 20px 30px 20px 30px;
+        padding: 40px 10px 20px 10px;
     }
     #about-content{
         padding: 30px;
