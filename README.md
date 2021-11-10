@@ -22,7 +22,9 @@ All pages
     - Most pages consist of two main sections at this point in time. Therefore I've gone for a 2 column flex design on desktop to utlise the space on a wider landscape screen. This layout collapses to a single column on smaller devices due to limited screen size.
 
 Homepage
-- 
+It isn't clear what the user is looking to achieve on the homepage so I've aimed to subtly guide the user in the right direction without confusing the design.
+- Header section: This is a brief summary about me and the purpose of the site. I want the stronger CTA to be to contact me so I've comtact button to stand out and just included a hyperlink to the about page in the p tag. A portfolio button will appear on small devices to anchor the user to that section of the page incase it get's lost below the fold.
+- Portfolio: I've opted for a minimal design for this section to keep it cleana nd simple. The user can reveal more information when they over over the image. This hover effect and change in cursor also indicates that the image is clickable.
 
 
 
