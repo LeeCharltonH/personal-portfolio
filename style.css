@@ -87,8 +87,6 @@ a.active {
     box-sizing: border-box;
     padding: 20px 60px 20px 60px;
     z-index: 1;
-    /*transform: translate(-50%, 0%);
-    transition: transform 2s;*/
 }
 
 
@@ -104,11 +102,6 @@ a.active {
     opacity: 75%;
 }
 
-/*#header:hover {
-    transform: none;
-}*/
-
-
 header button {
     border-radius: 25px;
     padding: 10px 20px 10px 20px;
@@ -118,10 +111,13 @@ header button {
     font-weight: 600;
     font-size: 16px;
     z-index: 1000;
+    transition: background-color 1s;
 }
 
 header button:hover {
     cursor: pointer;
+    background-color: #5d5c61;
+    color: #b1a296;
 }
 
 /*content section */
@@ -181,6 +177,7 @@ section > h2 {
 }
 
 .overlay {
+    /*Image overlay effect tutorial: https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -269,7 +266,7 @@ section > h2 {
 }
 
 #about-header li {
-    background-color: grey;
+    background-color: #314455;
     border-radius: 5px;
     padding: 10px 15px;
     min-width: 50px;
@@ -375,11 +372,12 @@ form button {
     min-width: 100px;
     border-radius: 25px;
     border: 3px solid #5d5c61;
+    transition: background-color 2s;
 }
 
 form button:hover {
     background-color: #5d5c61;
-    color: white;
+    color: #b1a296;
     cursor: pointer;
 }
 
@@ -456,10 +454,11 @@ footer button {
     border: 3px solid #b1a296;
     color: #b1a296;
     background-color: transparent;
+    transition: background-color 2s;
 }
 
 footer button:hover {
-    color: white;
+    color: #5d5c61;
     background-color: #b1a296;
 }
 
