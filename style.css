@@ -112,6 +112,11 @@ header button {
     font-size: 16px;
     z-index: 1000;
     transition: background-color 1s;
+    margin-top: 10px;
+}
+
+#portfolio-btn {
+    visibility: hidden;
 }
 
 header button:hover {
@@ -526,6 +531,10 @@ footer a {
     #navbar {
         visibility: hidden;
     }
+    
+#portfolio-btn {
+    visibility: visible;
+}
     .port-container {
       flex-direction: column;
       justify-content: center;
