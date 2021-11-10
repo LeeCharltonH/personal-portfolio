@@ -86,10 +86,12 @@ a.active {
     align-items: center;
     box-sizing: border-box;
     padding: 20px 60px 20px 60px;
-    z-index: -2;
+    z-index: 1;
     /*transform: translate(-50%, 0%);
     transition: transform 2s;*/
 }
+
+
 
 #header .heading-line {
     display: block;
@@ -97,7 +99,7 @@ a.active {
     width: 220px;
     background-color: white;
     position: absolute;
-    margin-top: -20px;
+    margin-top: -40px;
     z-index: -1;
     opacity: 75%;
 }
@@ -220,7 +222,7 @@ section > h2 {
     align-items: center;
     box-sizing: border-box;
     padding: 20px 60px 20px 60px;
-    z-index: -2;
+    z-index: 1;
 }
 
 #about-header .heading-line {
