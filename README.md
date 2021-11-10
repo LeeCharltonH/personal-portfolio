@@ -8,9 +8,9 @@ Users can read about my skillset and experience whilst also browsing previous pr
 ## UX
 There are two main users this website is designed for, employers looking to hire full time or for freelance work. 
 
-## Features
+### Features
 
-All pages
+**All pages**
 - Navigation: I've created two styles, one for desktop and mobile. 
     - Desktop: The nav bar constantly displays each page with the active page highlighted so that the user can easily see the site structure and where they are on the website.
     - Mobile: The nav bar collapses to a burger nav for smaller devices. This is to maintain a clean and simplified layout on devices with a limited screensize.
@@ -21,10 +21,21 @@ All pages
 - Flex design layout:
     - Most pages consist of two main sections at this point in time. Therefore I've gone for a 2 column flex design on desktop to utlise the space on a wider landscape screen. This layout collapses to a single column on smaller devices due to limited screen size.
 
-Homepage
+**Homepage**
 It isn't clear what the user is looking to achieve on the homepage so I've aimed to subtly guide the user in the right direction without confusing the design.
 - Header section: This is a brief summary about me and the purpose of the site. I want the stronger CTA to be to contact me so I've comtact button to stand out and just included a hyperlink to the about page in the p tag. A portfolio button will appear on small devices to anchor the user to that section of the page incase it get's lost below the fold.
 - Portfolio: I've opted for a minimal design for this section to keep it cleana nd simple. The user can reveal more information when they over over the image. This hover effect and change in cursor also indicates that the image is clickable.
+
+**About**
+As the user has navigated to this page it's clear they'd like to find out more about my experience. Therefore I've allowed for a larger header section to contain more content.
+- Skills: To make the page easier to scan I've added labels to summaries each of my key skills. These labels have been styled differently to clickable buttons to avoid confusion.
+- Social section: Employers will want to get a sense of who I am as a person as well as my skillset so I've included a profile pic and social links to make the page more personable.
+
+**Contact**
+This page is much more to the point as it's clear the user is ready to take action if they've navigated to this page. Therefore I've just included a header, brief description and then the full contact form. 
+
+I've made the personal detail fields compulsory as I'll need these to reply to any enquiries. I've left the message field as optional so that the user can chose to submit a quick enquiry or leave more details about their request.
+
 
 
 
