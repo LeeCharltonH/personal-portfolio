@@ -6,7 +6,7 @@ The ultimate objective of this website is to acquire front end development jobs,
 Users can read about my skillset and experience whilst also browsing previous projects I've worked on. I've made it possible to contact me by adding a contact form and clearly signposting to this form at various points throughout the website.
 
 ## UX
-There are two main users this website is designed for, employers looking to hire full time or for freelance work. 
+There are two main users this website is designed for, employers looking to hire full time or for freelance work. See below for details on each page's purpose and how it assists each user.
 
 ### Features
 
@@ -40,9 +40,10 @@ This page is much more to the point as it's clear the user is ready to take acti
 I've made the personal detail fields compulsory as I'll need these to reply to any enquiries. I've left the message field as optional so that the user can chose to submit a quick enquiry or leave more details about their request.
 
 
-##Features left to add
+## Features left to add
 
 I have yet to learn javascript so there are a few features I'd like to add at a later point which require javascript:
+- Content: As this is the first project I don't have content to populate the descriptions and portfolio yet. This will be populated post completing the course when I finalise my portfolio.
 - Carousel: Over time I'll have more projects to include in the portfolio section. To avoid the page becoming too cluttered I'd include a clickable carousel which the user can scroll through.
 - Contact form pop up: Rather than taking the user away from other pages to navigate to the form on the contact page, I'd like to serve a pop up form when they click a comtact button from another page.
 - Post form submission: I'd like to serve the user with a thank you message after form submissions and to signpost to another section of the site.
