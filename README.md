@@ -24,18 +24,17 @@ There are two main users this website is designed for, employers looking to hire
 **Homepage**
 
 It isn't clear what the user is looking to achieve on the homepage so I've aimed to subtly guide the user in the right direction without confusing the design.
-- Header section: This is a brief summary about me and the purpose of the site. I want the stronger CTA to be to contact me so I've comtact button to stand out and just included a hyperlink to the about page in the p tag. A portfolio button will appear on small devices to anchor the user to that section of the page incase it get's lost below the fold.
-- Portfolio: I've opted for a minimal design for this section to keep it cleana nd simple. The user can reveal more information when they over over the image. This hover effect and change in cursor also indicates that the image is clickable.
+- Header section: This is a brief summary about me and the purpose of the site. The main CTA is to contact me so I've added contact button to stand out. A portfolio button will appear on small devices to anchor the user to that section of the page incase it get's lost below the fold.
+- Portfolio: To reduce the amount of text on screen I've added an on hover effect to each project to reveal more information. This was a user can reveal more information (e.g. project title) without having a cluttered experience. An mouse over effect has also been added to indicate the image is clickable.
 
 **About**
 
-As the user has navigated to this page it's clear they'd like to find out more about my experience. Therefore I've allowed for a larger header section to contain more content.
 - Skills: To make the page easier to scan I've added labels to summaries each of my key skills. These labels have been styled differently to clickable buttons to avoid confusion.
-- Social section: Employers will want to get a sense of who I am as a person as well as my skillset so I've included a profile pic and social links to make the page more personable.
+- Social section: To make website more perosnable I've added a section for a profile picture and links to my social media accounts.
 
 **Contact**
 
-This page is much more to the point as it's clear the user is ready to take action if they've navigated to this page. Therefore I've just included a header, brief description and then the full contact form. 
+This page has been reduced to a single column layout with just a contact form as to not distract from the main CTA.
 
 I've made the personal detail fields compulsory as I'll need these to reply to any enquiries. I've left the message field as optional so that the user can chose to submit a quick enquiry or leave more details about their request.
 
@@ -45,7 +44,7 @@ I've made the personal detail fields compulsory as I'll need these to reply to a
 I have yet to learn javascript so there are a few features I'd like to add at a later point which require javascript:
 - Content: As this is the first project I don't have content to populate the descriptions and portfolio yet. This will be populated post completing the course when I finalise my portfolio.
 - Carousel: Over time I'll have more projects to include in the portfolio section. To avoid the page becoming too cluttered I'd include a clickable carousel which the user can scroll through.
-- Contact form pop up: Rather than taking the user away from other pages to navigate to the form on the contact page, I'd like to serve a pop up form when they click a comtact button from another page.
+- Contact form pop up: Rather than taking the user away from other pages to navigate to the form on the contact page, I'd like to serve a pop up form when they click a contact button from another page.
 - Post form submission: I'd like to serve the user with a thank you message after form submissions and to signpost to another section of the site.
 
 
