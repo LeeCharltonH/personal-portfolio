@@ -376,7 +376,7 @@ footer {
     color: #b1a296;
     padding: 0px 20px 20px 20px;
     box-sizing: border-box;
-    box-shadow: 0 5px 10px -2px #48474b inset;
+    box-shadow: 0 5px 10px -2px #48474b inset; /*Box shadow effect taken from: https://getcssscan.com/css-box-shadow-examples*/
     align-content: center;
     align-items: center;
     justify-content: center;

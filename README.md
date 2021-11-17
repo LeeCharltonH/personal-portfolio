@@ -47,6 +47,56 @@ I have yet to learn javascript so there are a few features I'd like to add at a 
 - Contact form pop up: Rather than taking the user away from other pages to navigate to the form on the contact page, I'd like to serve a pop up form when they click a contact button from another page.
 - Post form submission: I'd like to serve the user with a thank you message after form submissions and to signpost to another section of the site.
 
+## Technologies Used
+- HTML5
+- CSS3
+- Google Fonts
+- Git
+- Github
+
+## Testing
+
+- Browser testing: I opened my website in multiple browsers such as Chrome, Firefox and Microsoft Edge to test all features.
+- Responsiveness: In addition to constantly using developer tools to adjust my desktop screen size, I opened my site on mobile and tablet devices to test responsiveness on smaller screen sizes.
+- Validators: I ran all documents through W3C's validator to check for errors.
+
+### Validators
+
+- https://validator.w3.org/ to validate html files
+- https://jigsaw.w3.org/css-validator/ to validate css files
+
+## Deployment
+
+The version control system I used was git. I regularly commited my repository to Github and deployed my website to Github pages.
+
+1. After setting up my local repository I initialised git using the command `git init`.
+2. After making any significant changes to my local repo I added my files to the staging area using `git add .`.
+3. Following this I using the command `git commit -m "..."` to commit my work with a message.
+4. To keep the remote repo up to date I pushed any updates live using the command `git push origin master`.
+
+## How to clone a local repo
+
+Follow the below steps to get a local copy of this repo:
+
+1. Navigate to my repo https://github.com/LeeCharltonH/personal-portfolio
+2. Click on the 'Code' button and select Download ZIP from the drop down options.
+3. Go to your downloads and unzip the folder to open my website locally.
+
+## GitHub Pages
+
+https://leecharltonh.github.io/personal-portfolio/
+
+## References
+
+- Google Fonts https://fonts.google.com/ 
+- W3C tutorial https://www.w3schools.com/howto/howto_css_image_overlay.asp - Used to create image overlay effect in portfolio section.
+- Copepen.io https://codepen.io/erikterwan/pen/EVzeRP - Used to create burger nav for mobile devices.
+- CSS Scan https://getcssscan.com/css-box-shadow-examples - Used to create box shadow styling in footer.
+- CSS Scan https://getcssscan.com/css-buttons-examples - Design inspiration for buttons.
+- Formspree https://formspree.io/ - API used for form submissions.
+
+
+
 
 
 
