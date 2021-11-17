@@ -522,8 +522,11 @@ footer a {
 }
 
 @media (max-width: 1200px) {
-    #wrapper {
-        padding-bottom: 28rem;
+    .nav-collapse {
+        visibility: visible;
+    }
+    #navbar {
+        visibility: hidden;
     }
     #header, #content {
       width: 100%;
@@ -551,12 +554,7 @@ footer a {
   }
 
 @media (max-width: 660px) {
-    .nav-collapse {
-        visibility: visible;
-    }
-    #navbar {
-        visibility: hidden;
-    }
+    
     #portfolio-btn {
     visibility: visible;
     }
