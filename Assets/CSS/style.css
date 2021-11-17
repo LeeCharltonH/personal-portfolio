@@ -111,6 +111,7 @@ header button {
 
 #portfolio-btn {
     visibility: hidden;
+    margin-left: 10px;
 }
 
 header button:hover {
@@ -436,8 +437,8 @@ footer a {
 .dropdown ul {
     position: absolute;
     margin-left: -250px;
-    margin-top:-40px;
-    width: 600px;
+    margin-top:-48px;
+    width: 250px;
 }
 
 .dropdown ul li {
