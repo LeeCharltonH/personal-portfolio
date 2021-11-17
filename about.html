@@ -12,116 +12,94 @@
     
  </head>
  <body>
-    
-    <div id="wrapper" >
-        <div id="navbar">
+    <div id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html"  class="active">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="nav-collapse" id="menuToggle">
+        <ul>
+            <li class="dropdown"><input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="flex-container">
+        <div id="about-header" >
+            <header>
+                <h1>About<span class="heading-line"></span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3>Skills</h3>
+                <ul>
+                    <li>html</li>
+                    <li>CSS</li>
+                    <li>javascript</li>
+                    <li>Git</li>
+                </ul>
+            </header>
+            <div id="content-wrapper">
+                <section>
+                    <h2>Portfolio<span class="heading-line"></span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </section>
+                <div class="portfolio-container">
+                    <section class="portfolio-item">
+                        <a href="#" target="_bank">
+                            <div class="overlay">
+                                <h3>Project 1</h3>
+                            </div>
+                            <img src="https://placebear.com/400/400" alt="Project 1">
+                        </a>
+                    </section>
+                    <section class="portfolio-item">
+                        <a href="#" target="_bank">
+                            <div class="overlay">
+                                <h3>Project 2</h3>
+                            </div>
+                            <img src="https://loremflickr.com/400/400" alt="Project 2">
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div id="about-content">
+                <img src="https://placebear.com/270/270" style="border-radius:50%" width="270px" height="270px" alt="profile picture">
+            <div>
+                <p>Social links</p>
+                <hr>
+                <!--social icons source: https://www.iconfinder.com/-->
+                <ul>
+                    <li><a href="#" target="_blank"><img src="images/linkedinsq.png"></a></li>
+                    <li><a href="#" target="_blank"><img src="images/githubsq.png"></a></li>
+                    <li><a href="#" target="_blank"><img src="images/instasq.png"></a></li>
+                </ul>
+                <hr>
+            </div>
+        </div> 
+        <div id="push"></div>
+    </div>
+    <footer>
+        <div>
+            <ul>
+                <li><a href="#" target="_blank"><img src="images/whitelinkedin.png"></a></li>
+                <li><a href="#" target="_blank"><img src="images/whitegithub.png"></a></li>
+                <li><a href="#" target="_blank"><img src="images/whiteinsta.png"></a></li>
+            </ul>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html"  class="active">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
-        <div class="nav-collapse" id="menuToggle">
-            <ul>
-                <li class="dropdown"><input type="checkbox">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="flex-container">
-            <div id="about-header" >
-                <header>
-                    <h1>About<span class="heading-line"></span></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <h3>Skills</h3>
-                    <ul>
-                        <li>html</li>
-                        <li>CSS</li>
-                        <li>javascript</li>
-                        <li>Git</li>
-                    </ul>
-                </header>
-                <div id="content-wrapper">
-                    <section>
-                        <h2>Portfolio<span class="heading-line"></span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </section>
-                    <div class="portfolio-container">
-                        <section class="portfolio-item">
-                            <a href="#" target="_bank">
-                                <div class="overlay">
-                                    <h3>Project 1</h3>
-                                </div>
-                                <img src="https://placebear.com/400/400" alt="Project 1">
-                            </a>
-                        </section>
-                        <section class="portfolio-item">
-                            <a href="#" target="_bank">
-                                <div class="overlay">
-                                    <h3>Project 2</h3>
-                                </div>
-                                <img src="https://loremflickr.com/400/400" alt="Project 2">
-                            </a>
-                        </section>
-                    </div>
-                </div>
-            </div>
-            <div id="about-content">
-                    <img src="https://placebear.com/270/270" style="border-radius:50%" width="270px" height="270px" alt="profile picture">
-                <div>
-                    <p>Social links</p>
-                    <hr>
-                    <!--social icons source: https://www.iconfinder.com/-->
-                    <ul>
-                        <li><a href="#" target="_blank"><img src="images/linkedinsq.png"></a></li>
-                        <li><a href="#" target="_blank"><img src="images/githubsq.png"></a></li>
-                        <li><a href="#" target="_blank"><img src="images/instasq.png"></a></li>
-                    </ul>
-                    <hr>
-                </div>
-            </div> 
-            <div id="push"></div>
-        </div>
-        <div id="footer">
-            <footer>
-                <div>
-                    <ul>
-                        <li><a href="#" target="_blank"><img src="images/whitelinkedin.png"></a></li>
-                        <li><a href="#" target="_blank"><img src="images/whitegithub.png"></a></li>
-                        <li><a href="#" target="_blank"><img src="images/whiteinsta.png"></a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-form">
-                    <p>Contact</p>
-                    <form action="#" method="get" enctype="multipart/form-data"> 
-                        <div>
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email">
-                        </div>
-                        <div>
-                            <label for="message">Message</label>
-                            <textarea style="width: 100%; height: 100px; resize: none;" name="message" id="message"></textarea>
-                        </div>
-                        <div>
-                            <button type="submit">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </footer>
-        </div>
-    </div>
-    
+    </footer>
  </body>   
 </html>
