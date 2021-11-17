@@ -19,15 +19,15 @@ main {
 /*Nav section */
 
 #navbar { 
-    position: absolute;
-    right: 0;
+    position:absolute;
+    right: 20px;
 }
 
 .nav-collapse {
     visibility: hidden;
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 30px;
 }
 
 #navbar > ul {
@@ -83,12 +83,13 @@ a.active {
     z-index: 1;
 }
 
-#header .heading-line {
+.heading-line {
     display: block;
     height: 18px;
     width: 220px;
+    position: relative;
+    margin-top: -20px;
     background-color: white;
-    margin-top: -65px;
     z-index: -1;
     opacity: 75%;
 }
@@ -129,15 +130,11 @@ header button:hover {
     align-content: center;
 }
 
-
 #content .heading-line {
-    display: block;
-    height: 14px;
-    width: 100px;
     background-color: #9e5a63;
-    margin-top: -16px;
-    z-index: -1;
-    opacity: 75%;
+    width: 100px;
+    height: 14px;
+    margin-top: -15px;
 }
 
 section > h2 {
@@ -213,13 +210,10 @@ section > h2 {
 }
 
 #about-header .heading-line {
-    display: block;
     height: 18px;
     width: 90px;
     background-color: white;
-    position: absolute;
     margin-top: -20px;
-    z-index: -1;
     opacity: 75%;
 }
 
@@ -288,6 +282,7 @@ li img:hover {
     display: flex;
     flex-flow: wrap;
     align-items: center;
+    align-content: center;
     margin: auto;
 }
 
@@ -296,18 +291,11 @@ li img:hover {
 }
 
 #contact-wrapper .heading-line {
-    display: block;
     height: 18px;
     width: 180px;
     background-color: #9e5a63;
-    position: absolute;
     margin-top: -20px;
-    z-index: -1;
     opacity: 75%;
-}
-
-#contact-wrapper > div{
-    margin: 10px;
 }
 
 form {
@@ -315,6 +303,7 @@ form {
     padding: 20px;
     box-sizing: border-box;
     border-radius: 5px;
+    width: 100%;
 }
 
 form div {
@@ -379,17 +368,24 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color:#5d5c61;
-    
     color: #b1a296;
     padding: 0px 20px 20px 20px;
     box-sizing: border-box;
     box-shadow: 0 5px 10px -2px #48474b inset;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 footer > div {
     width: 300px;
     margin-top: 20px;
     box-sizing: border-box;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 footer p {
@@ -401,9 +397,11 @@ footer p {
 }
 
 footer ul {
-    display: block;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     list-style-type: none;
-    float: left;
     margin: 10px 0 10px 0;
     width: 100%;
     padding:0;
@@ -412,6 +410,7 @@ footer ul {
 footer ul > li {
     display: block;
     float: left;
+    text-align: center;
     padding-right: 10px;
 }
 
@@ -552,7 +551,6 @@ footer a {
   }
 
 @media (max-width: 660px) {
-    
     #portfolio-btn {
     visibility: visible;
     }
@@ -582,6 +580,8 @@ footer a {
     }
     #contact-wrapper {
         width: 100%;
+        box-sizing: border-box;
+        padding: 0 10px 0 10px;
     }
     .form-2col {
         flex-direction: column;
