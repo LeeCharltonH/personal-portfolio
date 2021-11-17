@@ -12,14 +12,14 @@
     
  </head>
  <body>
-    <div id="navbar">
+    <nav id="navbar">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html"  class="active">About</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-    </div>
-    <div class="nav-collapse" id="menuToggle">
+    </nav>
+    <nav class="nav-collapse" id="menuToggle">
         <ul>
             <li class="dropdown"><input type="checkbox">
                     <span></span>
@@ -32,9 +32,9 @@
                 </ul>
             </li>
         </ul>
-    </div>
-    <div class="flex-container">
-        <div id="about-header" >
+    </nav>
+    <main>
+        <div id="about-header">
             <header>
                 <h1>About<span class="heading-line"></span></h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -46,29 +46,27 @@
                     <li>Git</li>
                 </ul>
             </header>
-            <div id="content-wrapper">
-                <section>
-                    <h2>Portfolio<span class="heading-line"></span></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <section>
+                <h2>Portfolio<span class="heading-line"></span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </section>
+            <div class="portfolio-container">
+                <section class="portfolio-item">
+                    <a href="#" target="_bank">
+                        <div class="overlay">
+                            <h3>Project 1</h3>
+                        </div>
+                        <img src="https://placebear.com/400/400" alt="Project 1">
+                    </a>
                 </section>
-                <div class="portfolio-container">
-                    <section class="portfolio-item">
-                        <a href="#" target="_bank">
-                            <div class="overlay">
-                                <h3>Project 1</h3>
-                            </div>
-                            <img src="https://placebear.com/400/400" alt="Project 1">
-                        </a>
-                    </section>
-                    <section class="portfolio-item">
-                        <a href="#" target="_bank">
-                            <div class="overlay">
-                                <h3>Project 2</h3>
-                            </div>
-                            <img src="https://loremflickr.com/400/400" alt="Project 2">
-                        </a>
-                    </section>
-                </div>
+                <section class="portfolio-item">
+                    <a href="#" target="_bank">
+                        <div class="overlay">
+                            <h3>Project 2</h3>
+                        </div>
+                        <img src="https://loremflickr.com/400/400" alt="Project 2">
+                    </a>
+                </section>
             </div>
         </div>
         <div id="about-content">
@@ -85,8 +83,7 @@
                 <hr>
             </div>
         </div> 
-        <div id="push"></div>
-    </div>
+    </main>
     <footer>
         <div>
             <ul>
