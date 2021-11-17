@@ -6,7 +6,10 @@ html, body {
 body {
     margin: 0;
     min-height: 100vh;
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    
+    flex-direction: column;
 }
 
 /*flex container*/
@@ -14,6 +17,7 @@ body {
 main {
     display: flex;
     flex-flow: wrap;
+    height:100%;
 }
 
 /*Nav section */
@@ -26,8 +30,8 @@ main {
 .nav-collapse {
     visibility: hidden;
     position: absolute;
-    top: 10px;
-    right: 30px;
+    top: 20px;
+    right: 20px;
 }
 
 #navbar > ul {
@@ -71,8 +75,7 @@ a.active {
 
 /*header section */
 #header{
-    width:40%;
-    min-height: 100vh;
+    width:40%; 
     background-color: #97aabd;
     display: flex;
     flex-flow: wrap;
@@ -102,7 +105,6 @@ header button {
     color: #5d5c61;
     font-weight: 600;
     font-size: 16px;
-    z-index: 1000;
     transition: background-color 1s;
     margin-top: 10px;
 }
@@ -119,15 +121,16 @@ header button:hover {
 
 /*content section */
 #content {
+    
     width: 60%;
     padding: 20px 60px 20px 60px;
     box-sizing: border-box;
-    align-self: center;
     display: flex;
     flex-flow: wrap;
     align-items: center;
     justify-content: center;
     align-content: center;
+    
 }
 
 #content .heading-line {
@@ -138,7 +141,7 @@ header button:hover {
 }
 
 section > h2 {
-    margin: 0;
+    margin: 20px 0 0 0;
 }
 
 .portfolio-container {
@@ -198,12 +201,13 @@ section > h2 {
 /*About page*/
 
 #about-header{
-    width:60%;
-    min-height: 100vh;
+    width:70%;
     background-color: #97aabd;
     display: flex;
     flex-flow: wrap;
     align-items: center;
+    justify-content: center;
+    align-content: center;
     box-sizing: border-box;
     padding: 20px 60px 20px 60px;
     z-index: 1;
@@ -218,7 +222,7 @@ section > h2 {
 }
 
 #about-content {
-    width: 40%;
+    width: 30%;
     padding: 20px 60px 20px 60px;
     box-sizing: border-box;
     align-self: center;
@@ -278,12 +282,13 @@ li img:hover {
 
 #contact-wrapper {
     width:60%;
-    min-height: 100vh;
     display: flex;
     flex-flow: wrap;
     align-items: center;
     align-content: center;
     margin: auto;
+    box-sizing: border-box;
+    padding: 50px 10px 50px 10px;
 }
 
 #contact-wrapper h1 {
@@ -366,7 +371,6 @@ footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     background-color:#5d5c61;
     color: #b1a296;
     padding: 0px 20px 20px 20px;
@@ -375,6 +379,7 @@ footer {
     align-content: center;
     align-items: center;
     justify-content: center;
+    
 }
 
 footer > div {
@@ -388,13 +393,6 @@ footer > div {
     flex-direction: column;
 }
 
-footer p {
-    display: block;
-    margin: 0;
-    padding: 0;
-    width: 20%;
-    float: left;
-}
 
 footer ul {
     align-content: center;
@@ -408,10 +406,8 @@ footer ul {
 }
 
 footer ul > li {
-    display: block;
-    float: left;
     text-align: center;
-    padding-right: 10px;
+    padding: 0 5px 0 5px;
 }
 
 footer a {
@@ -519,6 +515,9 @@ footer a {
 }
 
 @media (max-width: 1200px) {
+    main {
+        height: auto;
+    }
     .nav-collapse {
         visibility: visible;
     }
@@ -581,7 +580,6 @@ footer a {
     #contact-wrapper {
         width: 100%;
         box-sizing: border-box;
-        padding: 0 10px 0 10px;
     }
     .form-2col {
         flex-direction: column;
