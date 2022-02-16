@@ -1,86 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Lee Hassall</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Assets/CSS/style.css" />
     <!--Google font links-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    
- </head>
- <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav id="navbar">
-        <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
     <nav class="nav-collapse" id="menuToggle">
-        <ul>
-            <li class="dropdown"><input type="checkbox">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </li>
-        </ul>
+      <ul>
+        <li class="dropdown">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
     </nav>
     <main>
-        <header id="header">
-            <h1><span style="font-weight: 400;">Lee Hassall</span><br>Web Developer<span class="heading-line"></span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <button type="button" onclick="window.location.href='contact.html'">Contact</button>
-            <button type="button" id="portfolio-btn" onclick="window.location.href='#content'">Portfolio</button>
-        </header>
-        <div id="content">
-            <section>
-                <h2>Portfolio<span class="heading-line"></span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </section>
-            <div class="portfolio-container">
-                <section class="portfolio-item">
-                    <a href="#" target="_blank">
-                        <div class="overlay">
-                            <h3>Project 1</h3>
-                        </div>
-                        <img src="https://placebear.com/400/400" alt="Click to view Project 1">
-                    </a>
-                </section>
-                <section class="portfolio-item">
-                    <a href="#" target="_blank">
-                        <div class="overlay">
-                            <h3>Project 2</h3>
-                        </div>
-                        <img src="https://loremflickr.com/400/400" alt="Click to view Project 2">
-                    </a>
-                </section>
-            </div>
-        </div> 
+      <header id="header">
+        <h1>
+          <span style="font-weight: 400">Lee Hassall</span><br />Web
+          Developer<span class="heading-line"></span>
+        </h1>
+        <p>
+          Starting out in the commercial sector of digital marketing I
+          discovered a passion for frontend development and decided to
+          transition my career into software engineering in 2021. I am skilled
+          in enriching the user experience with easy to use web applications
+          that are both well designed and functional.
+        </p>
+        <p>
+          Reach out to discuss any new opportunities using the contact form
+          below!
+        </p><div>
+        <button type="button" onclick="window.location.href='contact.html'">
+          Contact
+        </button>
+        <button
+          type="button"
+          id="portfolio-btn"
+          onclick="window.location.href='#content'"
+        >
+          Portfolio
+        </button>
+    </div>
+      </header>
+      <div id="content">
+        <section class="portfolio-title">
+          <h2>Portfolio<span class="heading-line"></span></h2>
+        </section>
+        <div class="portfolio-container">
+          <section class="portfolio-item">
+            <a href="#" target="_blank">
+              <div class="overlay">
+                <h3>Project 1</h3>
+              </div>
+              <img
+                src="./Assets/images/portfolio-bear-ambition.png"
+                alt="Click to view portfolio item 1. Bear ambition personal training website."
+              />
+            </a>
+          </section>
+          <section class="portfolio-item">
+            <a href="#" target="_blank">
+              <div class="overlay">
+                <h3>Project 2</h3>
+              </div>
+              <img
+                src="./Assets/images/portfolio-pairs.png"
+                alt="Click to view portfolio item 2. Pairs Game."
+              />
+            </a>
+          </section>
+        </div>
+      </div>
     </main>
     <footer>
-        <div>
-            <ul>
-                <li><a href="#" target="_blank"><img src="Assets/images/whitelinkedin.png" alt="Click to view Linkedin profile."></a></li>
-                <li><a href="#" target="_blank"><img src="Assets/images/whitegithub.png" alt="Click to view Github profile."></a></li>
-                <li><a href="#" target="_blank"><img src="Assets/images/whiteinsta.png" alt="Click to view Instagram profile."></a></li>
-            </ul>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li>&#8226;</li>
-                <li><a href="about.html">About</a></li>
-                <li>&#8226;</li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <p>&#169; Lee Hassall</p>
-        </div>
+      <div>
+        <ul>
+          <li>
+            <a href="#" target="_blank"
+              ><img
+                src="Assets/images/whitelinkedin.png"
+                alt="Click to view Linkedin profile."
+            /></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"
+              ><img
+                src="Assets/images/whitegithub.png"
+                alt="Click to view Github profile."
+            /></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"
+              ><img
+                src="Assets/images/whiteinsta.png"
+                alt="Click to view Instagram profile."
+            /></a>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>&#8226;</li>
+          <li><a href="about.html">About</a></li>
+          <li>&#8226;</li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p>&#169; Lee Hassall</p>
+      </div>
     </footer>
- </body>   
+  </body>
 </html>

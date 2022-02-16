@@ -79,8 +79,10 @@ a.active {
     background-color: #97aabd;
     display: flex;
     flex-flow: wrap;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     align-content: center;
+    justify-content: center;
     box-sizing: border-box;
     padding: 20px 60px 20px 60px;
     z-index: 1;
@@ -105,7 +107,7 @@ header button {
     color: #5d5c61;
     font-weight: 600;
     font-size: 16px;
-    transition: background-color 1s;
+    transition: background-color 0.5s;
     margin-top: 10px;
 }
 
@@ -153,6 +155,10 @@ section > h2 {
     
 }
 
+.portfolio-title{
+    margin: 40px 0;;
+}
+
 .portfolio-item {
     position: relative;
     box-sizing: border-box;
@@ -179,7 +185,7 @@ section > h2 {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     z-index: 1;
-    transition: 1s ease;
+    transition: 0.5s ease;
     opacity: 0;
 }
 
@@ -210,7 +216,7 @@ section > h2 {
     justify-content: center;
     align-content: center;
     box-sizing: border-box;
-    padding: 20px 60px 20px 60px;
+    padding: 20px 60px;
     z-index: 1;
 }
 
@@ -285,8 +291,9 @@ li img:hover {
     width:60%;
     display: flex;
     flex-flow: wrap;
-    align-items: center;
+    align-items: left;
     align-content: center;
+    flex-direction: column;
     margin: auto;
     box-sizing: border-box;
     padding: 50px 10px 50px 10px;
@@ -356,7 +363,7 @@ form button {
     min-width: 100px;
     border-radius: 25px;
     border: 3px solid #5d5c61;
-    transition: background-color 2s;
+    transition: background-color 0.5s;
 }
 
 form button:hover {
